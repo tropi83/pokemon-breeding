@@ -150,13 +150,13 @@ export class PokemonCombinationResult implements IPokemonCombinationResult {
      */
     displayText(): string {
         return "Combinaison: \n" +
-            "Faire PokemonA (" + this.pokemonA.id + ") avec pokemonE1: (" + this.pokemonE1.id +  "); " +
-            "Faire pokemonC1: (" + this.pokemonC1.id + ") avec pokemonE2: (" + this.pokemonE2.id +  "); " +
-            "Faire pokemonC2: (" + this.pokemonC2.id + ") avec pokemonD1: (" + this.pokemonD1.id +  "); " +
-            "Faire pokemonD2: (" + this.pokemonD2.id + ") avec pokemonE3: (" + this.pokemonE3.id +  "); " +
-            "Faire pokemonC3: (" + this.pokemonC3.id + ") avec pokemonD3: (" + this.pokemonD3.id +  "); " +
-            "Faire pokemonE4: (" + this.pokemonE4.id + ") avec pokemonD4: (" + this.pokemonD4.id +  "); " +
-            "Faire pokemonE5: (" + this.pokemonE5.id + ") avec pokemonB1: (" + this.pokemonB1.id +  "); " +
+            "Faire PokemonA (" + this.pokemonA.id + ") avec pokemonE1: (" + this.pokemonE1.id +  "); \n" +
+            "Faire pokemonC1: (" + this.pokemonC1.id + ") avec pokemonE2: (" + this.pokemonE2.id +  "); \n" +
+            "Faire pokemonC2: (" + this.pokemonC2.id + ") avec pokemonD1: (" + this.pokemonD1.id +  "); \n" +
+            "Faire pokemonD2: (" + this.pokemonD2.id + ") avec pokemonE3: (" + this.pokemonE3.id +  "); \n" +
+            "Faire pokemonC3: (" + this.pokemonC3.id + ") avec pokemonD3: (" + this.pokemonD3.id +  "); \n" +
+            "Faire pokemonE4: (" + this.pokemonE4.id + ") avec pokemonD4: (" + this.pokemonD4.id +  "); \n" +
+            "Faire pokemonE5: (" + this.pokemonE5.id + ") avec pokemonB1: (" + this.pokemonB1.id +  "); \n" +
             "Faire pokemonD5: (" + this.pokemonD5.id + ") avec pokemonB2: (" + this.pokemonB2.id +  ");"
     }
 }
