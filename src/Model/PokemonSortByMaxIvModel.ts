@@ -5,11 +5,11 @@ import {PokemonModel} from "./PokemonModel";
  */
 export class PokemonSortByMaxIvModel
 {
-    maxIvE: IPokemonSortByMaxIv;
-    maxIvD: IPokemonSortByMaxIv;
-    maxIvC: IPokemonSortByMaxIv;
-    maxIvB: IPokemonSortByMaxIv;
-    maxIvA: IPokemonSortByMaxIv;
+    maxIvE  : IPokemonSortByMaxIv;
+    maxIvD  : IPokemonSortByMaxIv;
+    maxIvC  : IPokemonSortByMaxIv;
+    maxIvB  : IPokemonSortByMaxIv;
+    maxIvA  : IPokemonSortByMaxIv;
 
     /**
      * Constructor
@@ -34,26 +34,6 @@ export class PokemonSortByMaxIvModel
         this.maxIvC = maxIvC;
         this.maxIvB = maxIvB;
         this.maxIvA = maxIvA;
-    }
-
-    /**
-     * Trie les propriétés de l'instance par nombre d'éléments en ordre décroissant
-     */
-    sortByCount() {
-        // Convertir les propriétés en un tableau
-        const sortableList = [
-            this.maxIvE,
-            this.maxIvD,
-            this.maxIvC,
-            this.maxIvB,
-            this.maxIvA
-        ];
-
-        // Trier le tableau
-        sortableList.sort((a, b) => b.count - a.count);
-
-        // Réassigner les propriétés
-        [this.maxIvE, this.maxIvD, this.maxIvC, this.maxIvB, this.maxIvA] = sortableList;
     }
 
 }

@@ -10,7 +10,7 @@ const PokemonBreedCalculator = require('./src/Service/PokemonBreedCalculator');
 {
     const pokemonGenerator = new PokemonGenerator(100, 'motisma');
 
-    const pokemonBreedCalculator = new PokemonBreedCalculator(pokemonGenerator.generatedPokemonsList);
+    const pokemonBreedCalculator = new PokemonBreedCalculator(pokemonGenerator.generatedPokemonsList, 'ivSpeAttack');
 
     pokemonBreedCalculator.displayPokemonCombinationResults();
 
