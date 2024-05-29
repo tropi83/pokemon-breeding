@@ -40,9 +40,9 @@ export class PokemonBreedCalculator
     public displayPokemonCombinationResults () {
         logConsole.info('Génération de  ' + this.pokemonsList.length + ' pokemons...');
 
+        // Trie les pokémons dans des tableaux/listes par IV max & par ordre décroissant
         this.pokemonListByBestIv = this.sortPokemonList(this.pokemonsList);
 
-        // Sélectionne le tableau qui a le moins de pokemon
         console.log('Nombre dans la catégorie E: ', this.pokemonListByBestIv.maxIvE.ivName, this.pokemonListByBestIv.maxIvE.count);
         console.log('Nombre dans la catégorie D: ', this.pokemonListByBestIv.maxIvD.ivName, this.pokemonListByBestIv.maxIvD.count);
         console.log('Nombre dans la catégorie C: ', this.pokemonListByBestIv.maxIvC.ivName, this.pokemonListByBestIv.maxIvC.count);
