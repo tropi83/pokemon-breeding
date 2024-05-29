@@ -9,7 +9,7 @@
 - [Utilisation](#utilisation)
 
 ## Intro
-Programme qui accouple les pokemon et donne les meilleures combinaisons 
+Programme qui accouple les pokemons et donne les meilleures combinaisons 
 et le nombre de combinaisons parfaites pour obtenir des pokémons max IV (5x31)
 
 ##  Installation
