@@ -38,7 +38,7 @@ export class PokemonBreedCalculator
      * Affiche les résultats des combinaisons trouvées
      */
     public displayPokemonCombinationResults () {
-        logConsole.info('Génération de  ' + this.pokemonsList.length + ' pokemons...');
+        logConsole.info('Génération de ' + this.pokemonsList.length + ' pokemons...');
 
         // Trie les pokémons dans des tableaux/listes par IV max & par ordre décroissant
         this.pokemonListByBestIv = this.sortPokemonList(this.pokemonsList);
